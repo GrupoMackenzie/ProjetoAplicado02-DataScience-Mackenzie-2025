@@ -103,5 +103,5 @@ Este roadmap apresenta as principais fases do projeto e seus marcos importantes.
 
 🎯 **Milestones Importantes**
 - 📅 **11 de Agosto** → Definição do projeto, organização do grupo e planejamento concluídos  
-- 📅 **05 de Setembro** → Envio de uma primeira etapa, obs do professor que existem diversos itens a serem observados
+- 📅 **05 de Setembro** →
 
