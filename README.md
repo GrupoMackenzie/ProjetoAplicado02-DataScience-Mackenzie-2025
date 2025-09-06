@@ -42,6 +42,8 @@ Etapa | Descrição
 ## 🔗 Links para o Documento do Projeto
 ---
 
+[Documento Oficial](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/PA02.pdf) <br>
+
 ## 🛠 Tecnologias que estamos usando:
 ---
 
