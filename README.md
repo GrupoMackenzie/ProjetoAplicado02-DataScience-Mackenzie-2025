@@ -33,7 +33,7 @@ Etapa | Descrição
 ## 📂 Estrutura do Repositório
 ---
 ├── 📂 datasets/ → # Arquivos de dados utilizados no projeto <br> 
-├── 📂 notebooks/ → # notebooks jupyter do projeto
+├── 📂 notebooks/ → # notebooks jupyter do projeto <br>
 ├── 📂 docs/ → # Documentação do projeto <br>
 ├── 📂 src/ → # outros scripts para processamento dos dados <br>
 ├── 📜 README.md/ → # Descrição geral do projeto <br>
