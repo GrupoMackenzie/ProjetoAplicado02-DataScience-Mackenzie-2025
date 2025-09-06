@@ -1,9 +1,14 @@
 # Projeto Aplicado 02 - DataScience - Mackenzie/2025 📊
 ---
+⚠️
+Projeto em desenvolvimento
+---
 ![Banner PAI](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/Imagens/Banner%20PA2.png)
 
 ## 📌 Descrição do Projeto
 ---
+
+A proposta do projeto é desenvolver uma solução de ponta a ponta que extrai e processa dados textuais e visuais de relatórios financeiros para construir um modelo preditivo de risco de crédito, permitindo a identificação de grupos e regiões com maior confiabilidade para a concessão de crédito.
 
 ## **:ledger: Aplicando o Conhecimento**
 ---
