@@ -13,18 +13,25 @@ columns = ['VMAF', 'DESC_CONC', 'INADIMPLENTES', 'VMPP', 'DIVIDAS', 'VMCD', 'VTD
 
 df = pd.DataFrame({x: [] for x in columns})
 
-with pdfplumber.open("../datasets/SERASA Mapa da Inadimplencia Julho 2025.pdf") as pdf:
+with pdfplumber.open("../datasets/SERASA Mapa da Inadimplencia Maio.pdf") as pdf:
     for page in range(len(pdf.pages)):
         match page:
             case 3:
-                indexes = [5, 20, 22, 25, 42, 45, 57]
+                values = []
                 page_text = pdf.pages[page].extract_text().split()
-                for column, index in zip(columns, indexes):
-                    df[column] = [page_text[index]]
+                for index in range(len(page_text)):
+                    match page_text[index]:
+                        case 'R$':
+                            values.append(page_text[index+1])
+                        case 'mi':
+                            values.append(page_text[index-1])
+
+                for column, index in zip(columns, values):
+                    df[column] = [index]
 
             case 5:
                 page_text = pdf.pages[page].extract_text_simple().split()
-                #print(page_text)
+                #print(page_text)]
 
 
 print(df.head())
