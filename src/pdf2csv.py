@@ -1,5 +1,6 @@
 import pdfplumber
 import pandas as pd
+import glob
 
 #VMAF - Valor Médio dos Acordos Fechados em reais
 #DESC_CONC - Descontos Concedidos em bilhões
@@ -11,27 +12,30 @@ import pandas as pd
 
 columns = ['VMAF', 'DESC_CONC', 'INADIMPLENTES', 'VMPP', 'DIVIDAS', 'VMCD', 'VTDD']
 
-df = pd.DataFrame({x: [] for x in columns})
+files = glob.glob("../datasets/mapas_serasa/*.pdf")
 
-with pdfplumber.open("../datasets/SERASA Mapa da Inadimplencia Maio.pdf") as pdf:
-    for page in range(len(pdf.pages)):
-        match page:
-            case 3:
-                values = []
-                page_text = pdf.pages[page].extract_text().split()
-                for index in range(len(page_text)):
-                    match page_text[index]:
-                        case 'R$':
-                            values.append(page_text[index+1])
-                        case 'mi':
-                            values.append(page_text[index-1])
+output = {}
 
-                for column, index in zip(columns, values):
-                    df[column] = [index]
+for file in files:
+    print(file)
+    with pdfplumber.open(file) as pdf:
+        for page in range(len(pdf.pages)):
+            match page:
+                case 3:
+                    values = []
+                    page_text = pdf.pages[page].extract_text().split()
+                    for index in range(len(page_text)):
+                        match page_text[index]:
+                            case 'R$':
+                                values.append(page_text[index+1])
+                            case 'mi':
+                                values.append(page_text[index-1])
+        filename = file.split()
+        filename = filename[len(filename)-2:len(filename)]
+        filename = filename[0] + " " + filename[1][:len(filename[1])-4]
+        output[filename] = values
 
-            case 5:
-                page_text = pdf.pages[page].extract_text_simple().split()
-                #print(page_text)]
+df = pd.DataFrame(output.values(), columns=columns, index=output.keys())
+print(df)
 
-
-print(df.head())
+#df.to_csv("../datasets/serasa.csv")
