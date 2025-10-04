@@ -2,4 +2,6 @@ pandas
 matplotlib 
 seaborn 
 pdfplumber
+numpy
+scikit-learn
 glob
