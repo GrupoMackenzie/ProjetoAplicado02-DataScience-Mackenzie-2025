@@ -57,6 +57,7 @@ Etapa | Descrição
 - Jupyter Notebook
 - Git/GitHub
 - Pdfplumber
+- Scikit-learn
 
 ## 🚀 Como Usar
 ---
@@ -111,4 +112,9 @@ Este roadmap apresenta as principais fases do projeto e seus marcos importantes.
 🎯 **Milestones Importantes**
 - 📅 **11 de Agosto** → Definição do projeto, organização do grupo e planejamento concluídos  
 - 📅 **05 de Setembro** → Documento oficial do projeto concluido, entrega da primeira etapa efetuada
+- 📅 **06 de Setembro** → Definida as bibliotecas
+- 📅 **20 de Setembro** → Script de analise e tratamento realizado
+- 📅 **01 de Outubro** → Refinamento do script e inicio de seus complementos em teste
+- 📅 **02 de Outubro** → Definida as bases teóricas
+- 📅 **03 de Outubro** → Documento oficial do projeto atualizado, entrega da segunda etapa efetuada
 
