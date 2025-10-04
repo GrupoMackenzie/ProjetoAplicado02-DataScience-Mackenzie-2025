@@ -10,6 +10,8 @@ import glob
 #VMCD - Valor médio de cada dívida em reais
 #VTDD - Valor total das dívidas em bilhões
 
+#Formato nome do pdf - SERASA Mapa da Inadimplencia <Mês> <Ano>.pdf
+
 columns = ['VMAF', 'DESC_CONC', 'INADIMPLENTES', 'VMPP', 'DIVIDAS', 'VMCD', 'VTDD']
 
 files = glob.glob("../datasets/mapas_serasa/*.pdf")
