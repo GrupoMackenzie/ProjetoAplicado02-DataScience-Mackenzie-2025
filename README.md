@@ -47,7 +47,7 @@ Etapa | Descrição
 ## 🔗 Links para o Documento do Projeto
 ---
 
-[Documento Oficial](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/PA02.pdf) <br>
+[Documento Oficial](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/PA02_A4.pdf) <br>
 [Esboço do Data Storytelling](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/ST.pdf) <br>
 [Vídeo do projeto](https://www.youtube.com/watch?v=YaVFC-WLAnw)
 
