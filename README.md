@@ -48,6 +48,7 @@ Etapa | Descrição
 ---
 
 [Documento Oficial](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/PA02.pdf) <br>
+[Esboço do Data Storytelling](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/ST.pdf) <br>
 [Vídeo do projeto](https://www.youtube.com/watch?v=YaVFC-WLAnw)
 
 ## 🛠 Tecnologias que estamos usando:
@@ -118,4 +119,14 @@ Este roadmap apresenta as principais fases do projeto e seus marcos importantes.
 - 📅 **01 de Outubro** → Refinamento do script e inicio de seus complementos em teste
 - 📅 **02 de Outubro** → Definida as bases teóricas
 - 📅 **03 de Outubro** → Documento oficial do projeto atualizado, entrega da segunda etapa efetuada
-
+- 📅 **07 de Outubro** → Aplicado métodos analíticos definidos à base de dados
+- 📅 **15 de Outubro** → Calculado acurácia e comparado os métodos (precisa de refinamento)
+- 📅 **17 de Outubro** → resultados preliminares descritos e protótipo gerado
+- 📅 **24 de Outubro** → Definido o modelo de negócio e elaborado esboço do storytelling
+- 📅 **24 de Outubro** → Documento oficial do projeto atualizado, entrega da terceira etapa efetuada
+- 📅 **05 de Novembro** → Calculo de acurácia refinado
+- 📅 **12 de Novembro** → PPT criado, Redação do relatório técnico final concluído
+- 📅 **20 de Novembro** → Ajustes finais nos códigos
+- 📅 **23 de Novembro** → Redação do relatório técnico final, modelo de negócio ajustado para uma melhor definição
+- 📅 **24 de Novembro** → Gravação e edição do vídeo de apresentação (YouTube), Documento oficial do projeto atualizado, entrega da etapa final efetuada
+- 📅 **25 de Novembro** → repositório GitHub atualizado e organizado com documentos finais
