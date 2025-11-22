@@ -1,7 +1,6 @@
 # Projeto Aplicado 02 - DataScience - Mackenzie/2025 📊
 ---
-⚠️
-Projeto em desenvolvimento
+Projeto concluído
 ---
 ![Banner PAI](https://github.com/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/Docs/Imagens/Banner%20PA2.png)
 
