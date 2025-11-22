@@ -130,5 +130,5 @@ Este roadmap apresenta as principais fases do projeto e seus marcos importantes.
 - 📅 **20 de Novembro** → Redação do relatório técnico final 
 - 📅 **20 de Novembro** → Modelo de negócio ajustado para uma melhor definição (FeedBack professor)
 - 📅 **21 de Novembro** → Gravação e edição do vídeo de apresentação (YouTube) 
-- 📅 **22 de Novembro** → Documento oficial do projeto atualizado, entrega da etapa final efetuada, vídeo upado
+- 📅 **21 de Novembro** → Documento oficial do projeto atualizado, entrega da etapa final efetuada, vídeo upado
 - 📅 **22 de Novembro** → Repositório GitHub atualizado, ajustado e organizado com documentos finais
