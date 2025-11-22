@@ -41,7 +41,7 @@ Etapa | Descrição
 ├── 📂 datasets/mapas_serasa/ → Dados específicos da Serasa (mapas e bases) <br>
 ├── 📂 figures/ → Gráficos e visualizações gerados <br>
 ├── 📂 notebooks/📓EDA_Serasa.ipynb → [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GrupoMackenzie/ProjetoAplicado02-DataScience-Mackenzie-2025/blob/master/notebooks/EDA_Serasa.ipynb) <br>
- │ └── .ipynb_checkpoints/ → Backups automáticos dos notebooks <br>
+└── .ipynb_checkpoints/ → Backups automáticos dos notebooks <br>
 ├── 📂 src/ → Scripts de processamento dos dados <br>
 ├── 📜 README.md → Descrição geral do projeto <br>
 ├── 📜 requirements.txt → Dependências do projeto <br>
