@@ -127,6 +127,8 @@ Este roadmap apresenta as principais fases do projeto e seus marcos importantes.
 - 📅 **05 de Novembro** → Calculo de acurácia refinado
 - 📅 **12 de Novembro** → PPT criado, Redação do relatório técnico final concluído
 - 📅 **20 de Novembro** → Ajustes finais nos códigos
-- 📅 **23 de Novembro** → Redação do relatório técnico final, modelo de negócio ajustado para uma melhor definição
-- 📅 **24 de Novembro** → Gravação e edição do vídeo de apresentação (YouTube), Documento oficial do projeto atualizado, entrega da etapa final efetuada
-- 📅 **25 de Novembro** → repositório GitHub atualizado e organizado com documentos finais
+- 📅 **23 de Novembro** → Redação do relatório técnico final 
+- 📅 **23 de Novembro** → Modelo de negócio ajustado para uma melhor definição (FeedBack professor)
+- 📅 **24 de Novembro** → Gravação e edição do vídeo de apresentação (YouTube) 
+- 📅 **24 de Novembro** → Documento oficial do projeto atualizado, entrega da etapa final efetuada
+- 📅 **25 de Novembro** → Repositório GitHub atualizado, ajustado e organizado com documentos finais
